@@ -46,6 +46,13 @@ stage('Clean Success Stage')
                         {
                                     echo 'Build successful'
                         }
-            }                      
+            } 
+  stage('Build Success')
+            {
+                        steps
+                        {
+                                    echo 'Chitra last stage'
+                        }
+            } 
       }
 }
